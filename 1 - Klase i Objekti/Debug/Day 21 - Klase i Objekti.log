@@ -1,0 +1,8 @@
+﻿  Day 21 - Klase i Objekti.cpp
+c:\users\uc-m03\documents\antonio scardovi\bootcamp it - 1\day 21 - klase i objekti\day 21 - klase i objekti.cpp(246): warning C4305: 'argument': truncation from '__int64' to 'int'
+c:\users\uc-m03\documents\antonio scardovi\bootcamp it - 1\day 21 - klase i objekti\day 21 - klase i objekti.cpp(246): warning C4309: 'argument': truncation of constant value
+c:\users\uc-m03\documents\antonio scardovi\bootcamp it - 1\day 21 - klase i objekti\day 21 - klase i objekti.cpp(257): warning C4305: 'argument': truncation from '__int64' to 'int'
+c:\users\uc-m03\documents\antonio scardovi\bootcamp it - 1\day 21 - klase i objekti\day 21 - klase i objekti.cpp(257): warning C4309: 'argument': truncation of constant value
+c:\users\uc-m03\documents\antonio scardovi\bootcamp it - 1\day 21 - klase i objekti\day 21 - klase i objekti.cpp(268): warning C4305: 'argument': truncation from '__int64' to 'int'
+c:\users\uc-m03\documents\antonio scardovi\bootcamp it - 1\day 21 - klase i objekti\day 21 - klase i objekti.cpp(268): warning C4309: 'argument': truncation of constant value
+  Day 21 - Klase i Objekti.vcxproj -> C:\Users\UC-M03\Documents\Antonio Scardovi\Bootcamp IT - 1\Day 21 - Klase i Objekti\Debug\Day 21 - Klase i Objekti.exe
