@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  Kljucni koncepti OOP.cpp
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\3 - kljucni koncepti oop\kljucni koncepti oop.cpp(62): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\3 - kljucni koncepti oop\kljucni koncepti oop.cpp(82): warning C4553: '==': result of expression not used; did you intend '='?
+  Kljucni koncepti OOP.vcxproj -> C:\Users\UC-M03\Documents\Antonio Scardovi\BootcampIT-2\3 - Kljucni koncepti OOP\Debug\Kljucni koncepti OOP.exe

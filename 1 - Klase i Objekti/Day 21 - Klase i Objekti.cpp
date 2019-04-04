@@ -185,7 +185,7 @@ int main()
 	box.ispis();
 	cout << endl;
 
-	/*
+	
 	cout << "COVJEK:" << endl;
 	Covjek subjekt1;
 	subjekt1.ime = "Artas";
@@ -195,9 +195,9 @@ int main()
 	subjekt1.age();
 	subjekt1.run(0);
 	cout << endl;
-	*/
+	
 
-	/*
+	
 	cout << "KOCKA1:" << endl;
 	Kocka kocka1;
 	kocka1.otvori();
@@ -221,7 +221,7 @@ int main()
 	cout << kocka2.get_dubina() << endl;
 	kocka2.zatvori();
 	cout << endl;
-	*/
+	
 
 	cout << "KOCKA3:" << endl;
 	Kocka kocka3;
