@@ -1,11 +1,28 @@
 #include "pch.h"
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-class Racun {
+class Banka {
 protected:
-	static int broj_racuna;
+	vector <Racun> racuni;
+public:
+	vector <Racun> get_svi_racuni() {
+		return racuni;
+	}
+
+	void get_neki_racun() {
+		int broj;
+		cout << "Unesite broj racuna: ";
+		cin >> broj;
+		cout << racuni[broj];
+	}
+};
+
+class Racun : public Banka {
+protected:
+	int broj_racuna;
 	float stanje_racuna;
 
 public:
@@ -20,11 +37,9 @@ public:
 };
 
 
-int Racun::broj_racuna = 0;
 
 // Konstruktori
 Racun::Racun() {
-	broj_racuna++;
 	cout << "Pocetno stanje: ";
 	cin >> stanje_racuna;
 }
@@ -98,8 +113,30 @@ Stedni_racun::Stedni_racun() {
 
 int main()
 {
-	Racun racun1(12);
-	int x = 1;
+	Banka banka;
+
+
+	vector <Racun> racuni;
+	int b;
+	float stanje;
+	char izbor;
+	do {
+		Racun r;
+		cout << "Unesite broj racuna: ";
+		cin >> b;
+		r.set_broj_racuna(b);
+		racuni.push_back(r);
+		cout << "Unesite svoj izbor (d/n): ";
+		cin >> izbor;
+	} while (izbor == 'd');
+	
+	for (int i = 0; i < racuni.size(); i++) {
+		cout << "Na racunu " << racuni[i].get_broj_racuna() << " ima " << racuni[i].get_stanje_racuna() << " kn." << endl;
+	}
+
+	banka.get_neki_racun();
+
+	/*int x = 1;
 	int polog;
 	int isplata;
 
@@ -134,5 +171,5 @@ int main()
 		case 0:
 			break;
 		} 
-	} while (x != 0);
+	} while (x != 0);*/
 }

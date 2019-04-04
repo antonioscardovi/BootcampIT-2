@@ -1,4 +1,16 @@
 ﻿  4 - OOP zadaci.cpp
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(127): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(132): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  4 - OOP zadaci.vcxproj -> C:\Users\UC-M03\Documents\Antonio Scardovi\BootcampIT-2\4 - OOP zadaci\Debug\4 - OOP zadaci.exe
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(9): error C2065: 'Racun': undeclared identifier
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(9): error C2923: 'std::vector': 'Racun' is not a valid template type argument for parameter '_Ty'
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(9): error C2903: 'allocator': symbol is neither a class template nor a function template
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(9): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(11): error C2065: 'Racun': undeclared identifier
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(11): error C2923: 'std::vector': 'Racun' is not a valid template type argument for parameter '_Ty'
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(11): error C2903: 'allocator': symbol is neither a class template nor a function template
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(11): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(12): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(12): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(19): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
+  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(19): note: while trying to match the argument list '(std::vector, int)'
+c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\4 - oop zadaci\4 - oop zadaci.cpp(133): warning C4018: '<': signed/unsigned mismatch
