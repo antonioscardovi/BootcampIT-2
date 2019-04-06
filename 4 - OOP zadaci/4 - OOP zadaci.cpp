@@ -1,26 +1,27 @@
 #include "pch.h"
 #include <iostream>
 #include <vector>
+#include <string> 
 
 using namespace std;
 
-class Banka {
-protected:
-	vector <Racun> racuni;
-public:
-	vector <Racun> get_svi_racuni() {
-		return racuni;
-	}
+//class Banka {
+//protected:
+//	vector <Racun> racuni;
+//public:
+//	vector <Racun> get_svi_racuni() {
+//		return racuni;
+//	}
+//
+//	void get_neki_racun() {
+//		int broj;
+//		cout << "Unesite broj racuna: ";
+//		cin >> broj;
+//		cout << racuni[broj].get_svi_racuni();
+//	}
+//};
 
-	void get_neki_racun() {
-		int broj;
-		cout << "Unesite broj racuna: ";
-		cin >> broj;
-		cout << racuni[broj];
-	}
-};
-
-class Racun : public Banka {
+class Racun {
 protected:
 	int broj_racuna;
 	float stanje_racuna;
@@ -113,9 +114,6 @@ Stedni_racun::Stedni_racun() {
 
 int main()
 {
-	Banka banka;
-
-
 	vector <Racun> racuni;
 	int b;
 	float stanje;
@@ -134,7 +132,6 @@ int main()
 		cout << "Na racunu " << racuni[i].get_broj_racuna() << " ima " << racuni[i].get_stanje_racuna() << " kn." << endl;
 	}
 
-	banka.get_neki_racun();
 
 	/*int x = 1;
 	int polog;
