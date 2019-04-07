@@ -1,3 +1,6 @@
 ﻿  Record store.cpp
 C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record store\Record store.cpp(155): warning C4018: '<': signed/unsigned mismatch
-  Record store.vcxproj -> C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record store\Debug\Record store.exe
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record store\Record store.cpp(153): error C2360: initialization of 'output' is skipped by 'case' label
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record store\Record store.cpp(143): note: see declaration of 'output'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record store\Record store.cpp(153): error C2360: initialization of 'a' is skipped by 'case' label
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record store\Record store.cpp(121): note: see declaration of 'a'

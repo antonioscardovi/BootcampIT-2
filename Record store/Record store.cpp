@@ -116,7 +116,7 @@ int main()
 
 	switch (menu) {
 	case 1:
-		do {
+	/*	do {*/
 			system("cls");
 			Album a;
 			cout << "Album artist: ";
@@ -145,10 +145,10 @@ int main()
 			output << new_album;
 			output.close();
 
-			cout << "Add more albums? (y/n): ";
+			/*cout << "Add more albums? (y/n): ";
 			cin >> choice;
 			cin.ignore();
-		} while (choice == 'y');
+		} while (choice == 'y');*/
 		break;
 	case 2:
 		system("cls");
