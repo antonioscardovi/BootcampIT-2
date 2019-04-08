@@ -1,74 +1,66 @@
 ﻿  Record Store - OOP.cpp
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(12): error C2065: 'Album': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(12): error C2923: 'std::vector': 'Album' is not a valid template type argument for parameter '_Ty'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(12): error C2903: 'allocator': symbol is neither a class template nor a function template
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(12): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(21): error C2065: 'Album': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(21): error C2923: 'std::vector': 'Album' is not a valid template type argument for parameter '_Ty'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(21): error C2903: 'allocator': symbol is neither a class template nor a function template
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(21): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(37): error C2065: 'Album': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(37): error C2923: 'std::vector': 'Album' is not a valid template type argument for parameter '_Ty'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(37): error C2903: 'allocator': symbol is neither a class template nor a function template
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(37): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(16): error C2065: 'Album': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(16): error C2146: syntax error: missing ';' before identifier 'a'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(16): error C2065: 'a': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(17): error C2065: 'a': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(18): error C2065: 'a': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(22): error C2065: 'Album': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(22): error C2923: 'std::vector': 'Album' is not a valid template type argument for parameter '_Ty'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(22): error C2903: 'allocator': symbol is neither a class template nor a function template
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(22): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(22): error C2133: 'trazeni': unknown size
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(22): error C2512: 'std::vector': no appropriate default constructor available
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(625): note: see declaration of 'std::vector'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(23): error C2662: '_Vector_alloc<_Alloc_types>::_Val_types::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(23): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(23): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(24): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(24): note: while trying to match the argument list '(std::vector, int)'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(25): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(25): note: while trying to match the argument list '(std::vector, int)'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(25): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(28): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(28): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(32): error C2662: '_Vector_alloc<_Alloc_types>::_Val_types::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(32): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(32): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(33): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(33): note: while trying to match the argument list '(std::vector, int)'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(38): error C2662: '_Vector_alloc<_Alloc_types>::_Val_types::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(38): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(38): note: Conversion requires a second user-defined-conversion operator or constructor
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(39): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1739): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type) const'
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(1730): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const _Vector_alloc<_Alloc_types>::_Val_types::size_type)'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(39): note: while trying to match the argument list '(std::vector, int)'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(43): error C2512: 'std::vector': no appropriate default constructor available
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(625): note: see declaration of 'std::vector'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(46): error C2065: 'Album': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(46): error C2146: syntax error: missing ';' before identifier 'temp'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(46): error C2065: 'temp': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(53): error C2065: 'temp': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(54): error C2065: 'temp': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(55): error C2065: 'temp': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(56): error C2065: 'temp': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(57): error C2065: 'temp': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(114): error C2084: function 'Record_store::Record_store(void)' already has a body
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(43): note: see previous definition of '{ctor}'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(114): error C2512: 'std::vector': no appropriate default constructor available
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(625): note: see declaration of 'std::vector'
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(117): error C2065: 'username': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(119): error C2065: 'password': undeclared identifier
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(121): error C2264: 'Record_store::Record_store': error in function definition or declaration; function not called
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(203): error C2264: 'Record_store::Record_store': error in function definition or declaration; function not called
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(206): error C2664: 'void Record_store::prikaz_albuma(std::vector)': cannot convert argument 1 from 'std::vector' to 'std::vector'
-  c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(206): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
-c:\users\uc-m03\documents\antonio scardovi\bootcampit-2\record store - oop\record store - oop.cpp(249): warning C4018: '<': signed/unsigned mismatch
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(12): error C2065: 'Album': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(12): error C2923: 'std::vector': 'Album' is not a valid template type argument for parameter '_Ty'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(12): error C2903: 'allocator': symbol is neither a class template nor a function template
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(12): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(21): error C2065: 'Album': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(21): error C2923: 'std::vector': 'Album' is not a valid template type argument for parameter '_Ty'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(21): error C2903: 'allocator': symbol is neither a class template nor a function template
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(21): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(40): error C2065: 'Album': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(40): error C2923: 'std::vector': 'Album' is not a valid template type argument for parameter '_Ty'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(40): error C2903: 'allocator': symbol is neither a class template nor a function template
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(40): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(16): error C2065: 'Album': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(16): error C2146: syntax error: missing ';' before identifier 'a'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(16): error C2065: 'a': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(17): error C2065: 'a': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(18): error C2065: 'a': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(22): error C2065: 'Album': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(22): error C2923: 'std::vector': 'Album' is not a valid template type argument for parameter '_Ty'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(22): error C2903: 'allocator': symbol is neither a class template nor a function template
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(22): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(22): error C2133: 'trazeni': unknown size
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(22): error C2512: 'std::vector': no appropriate default constructor available
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vector(339): note: see declaration of 'std::vector'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(26): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(26): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(26): note: Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(27): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vector(1369): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vector(1361): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(27): note: while trying to match the argument list '(std::vector, int)'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(28): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vector(1369): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vector(1361): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(28): note: while trying to match the argument list '(std::vector, int)'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(28): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(31): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(31): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(35): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(35): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(35): note: Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(36): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vector(1369): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vector(1361): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(36): note: while trying to match the argument list '(std::vector, int)'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(41): error C2662: 'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(41): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(41): note: Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(42): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vector(1369): note: could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vector(1361): note: or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(42): note: while trying to match the argument list '(std::vector, int)'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(46): error C2512: 'std::vector': no appropriate default constructor available
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\vector(339): note: see declaration of 'std::vector'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(49): error C2065: 'Album': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(49): error C2146: syntax error: missing ';' before identifier 'temp'
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(49): error C2065: 'temp': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(56): error C2065: 'temp': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(57): error C2065: 'temp': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(58): error C2065: 'temp': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(59): error C2065: 'temp': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(60): error C2065: 'temp': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(61): error C2065: 'temp': undeclared identifier
+C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(193): error C2664: 'void Record_store::prikaz_albuma(std::vector)': cannot convert argument 1 from 'std::vector' to 'std::vector'
+  C:\Users\anton\Documents\Antoniusz\Code\BootcampIT-2\Record Store - OOP\Record Store - OOP.cpp(193): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor

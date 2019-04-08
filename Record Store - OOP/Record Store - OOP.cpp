@@ -82,19 +82,46 @@ private:
 	string format;
 
 public:
-	Album();
-	void set_ID(int x);
-	void set_artist(string x);
-	void set_title(string x);
-	void set_year(int x);
-	void set_genre(string x);
-	void set_format(string x);
-	int get_ID();
-	string get_artist();
-	string get_title();
-	int get_year();
-	string get_genre();
-	string get_format();
+	Album() {
+		album_count++;
+		cout << "Novi album" << endl;
+	}
+	void set_ID(int x) {
+		ID = x;
+	}
+	void set_artist(string x) {
+		artist = x;
+	}
+	void set_title(string x) {
+		title = x;
+	}
+	void set_year(int x) {
+		year = x;
+	}
+	void set_genre(string x) {
+		genre = x;
+	}
+	void set_format(string x) {
+		format = x;
+	}
+	int get_ID() {
+		return ID;
+	}
+	string get_artist() {
+		return artist;
+	}
+	string get_title() {
+		return title;
+	}
+	int get_year() {
+		return year;
+	}
+	string get_genre() {
+		return genre;
+	}
+	string get_format() {
+		return format;
+	}
 };
 
 class Admin : public Album {
@@ -122,51 +149,6 @@ public:
 		cout << "User: " << username;
 	}
 };
-
-//KONSTRUKTORI
-Album::Album() {
-	album_count++;
-	cout << "Novi album" << endl;
-}
-
-// SETERI
-void Album::set_ID(int x) {
-	Album::ID = x;
-}
-void Album::set_artist(string x) {
-	Album::artist = x;
-}
-void Album::set_title(string x) {
-	Album::title = x;
-}
-void Album::set_year(int x) {
-	Album::year = x;
-}
-void Album::set_genre(string x) {
-	Album::genre = x;
-}
-void Album::set_format(string x) {
-	Album::format = x;
-}
-//GETERI
-int Album::get_ID() {
-	return ID;
-}
-string Album::get_artist() {
-	return artist;
-}
-string Album::get_title() {
-	return title;
-}
-int Album::get_year() {
-	return year;
-}
-string Album::get_genre() {
-	return genre;
-}
-string Album::get_format() {
-	return format;
-}
 
 
 
@@ -251,12 +233,13 @@ int main()
 			break;
 		case 2:
 			system("cls");
-			for (int i = 0; i < albumi.size(); i++) {
+			rec.prikaz_albuma();
+			/*for (int i = 0; i < albumi.size(); i++) {
 				cout << "Album #" << i + 1 << "\nAlbum ID: " << albumi[i].get_ID() << "\nArtist: " << albumi[i].get_artist()
 					<< "\nTitle: " << albumi[i].get_title() << "\nYear: " << albumi[i].get_year()
 					<< "\nGenre: " << albumi[i].get_genre() << "\nFormat: " << albumi[i].get_format();
 				cout << "\n";
-			}
+			}*/
 			break;
 		}
 	
